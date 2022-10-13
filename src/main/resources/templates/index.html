@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+<form>
+    <input name="firstVal" type="number" id="firstVal">
+    <br>
+    <br>
+
+    <select name="select" id="select">
+        <option value="plus">+</option>
+        <option value="minus" selected>-</option>
+        <option value="multiply">*</option>
+        <option value="divide">/</option>
+    </select>
+    <br>
+    <br>
+    <input name="secval" type="number" id="secval">
+    <input formaction="/calculate"
+           formmethod="get"
+           value="get"
+           type="submit">
+    <input formaction="/calculate"
+           formmethod="post"
+           value="post"
+           type="submit">
+</form>
+</body>
+</html>
